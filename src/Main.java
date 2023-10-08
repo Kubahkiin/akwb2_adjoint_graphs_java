@@ -3,7 +3,7 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         List< List< Integer > > graph = new ArrayList<>();
-        //List< List< Integer > > originalGraph = new ArrayList<>();
+        List< List< Integer > > originalGraph = new ArrayList<>();
 
         System.out.println("Podaj nazwę pliku w którym znajduje się graf w formie listy następników");
         Scanner scanner = new Scanner(System.in);
